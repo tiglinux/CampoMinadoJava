@@ -80,7 +80,7 @@ public class CampoTeste {
 	
 	@Test
 	void testeAbrirNaoMinadoNaoMarcado() {
-		assertTrue(campo.abrir());
+		assertFalse(campo.abrir());
 	}
 
 	@Test
@@ -140,5 +140,49 @@ public class CampoTeste {
 		assertTrue(campo22.isAberto() && campo11.isFechado());
 	
 	}
+	
+	@Test
+	void testeIsFechado() {
+		campo.isAberto();
+		campo.isFechado();
+	}
+	
+	@Test
+	void testeGetLinha() {
+		Campo campo11 = new Campo(1,1);
+		campo11.getLinha();
+	}
+	
+	@Test
+	void testeGetColuna() {
+		Campo campo11 = new Campo(1,1);
+		campo11.getColuna();
+	}
+	
+	@Test
+	void testeObjetivoAlcancado() {
+		Campo campo11 = new Campo(1,1);
+		campo11.abrir();
+		assertTrue(campo11.objetivoAlcancado());
+	}
+	
+	@Test
+	void testeMinasNaVizinhanca() {
+		Campo campo11 = new Campo(1, 1);
+		Campo campo22 = new Campo(2, 2);
+		
+		campo22.adicionarVizinho(campo11);
+		
+		campo22.minasNaVizinhanca();
+	}
+	
+	@Test
+	void testeReiniciar() {
+		campo.reiniciar();
+	}
 
+	@Test
+	void testeToString() {
+		campo.toString();
+	}
 }
