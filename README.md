@@ -21,7 +21,8 @@ Ou simplesmente abrir o link do repositório e baixar direto através do botão
 
 ![image](https://github.com/tiglinux/CursoProfissional-JAVACodes2023/assets/8001737/f2f0c04b-c562-472d-a813-d0a0a1c67523)
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/d23cbbc6-c5b2-47c8-844c-36de1df791e4)
+![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/3527a77b-cac0-4eeb-a52a-755d07f72468)
+
 
 Selecionando a opção baixar .zip
 
@@ -42,34 +43,33 @@ Em seguida importar o projeto Java no ECLIPSE IDE através da opção "IMPORT" (
 
 Para executar os arquivos e exemplos .java , simplesmente selecione a pasta SRC:
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/aa2826be-7951-4986-87f3-ae4d90bcba2f)
+![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/7df3d718-3320-4478-9c7d-e3bae0bd095f)
 
 
-e em seguida para executar as aplicações no Console, acesse a pasta "visao" com o Arquivo "TabuleiroConsole.java" e o arquivo "Aplicacao.java"
+e em seguida para executar as aplicações no Console, acesse  o arquivo "Aplicacao.java" para JOGAR.
 
+![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/f924d662-5f9c-46e5-a1c2-13ea892b0e85)
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/b666787d-2984-4f55-bf30-8c32f536c261)
-
-Sendo essas os dois arquivos com o método main() para executar a aplicação e testar no console.
 
 ## ⚙️ Executando os testes Junit (Testes unitários)
 
 Aqui no projeto atualmente, foi realizado testes unitários no package "modelo" e na Classe "Campo", mas você pode contribuir e estender mais classes dessa aplicação.
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/1a4a5922-1a34-4a0c-a1dd-619a4cd357e0)
+![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/64e59ab0-9106-47ce-935a-75a8f655433f)
 
 
 Para executar os testes unitários, basta apenas escolher os arquivos de teste que estão presente na pasta "test", selecionar uma classe de teste e clicar no botão RUN 
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/4e0199cc-34d1-4b3d-87e9-2bfe3167a928)
+![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/6bd15f01-4efd-4b52-9318-349583b02c8d)
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/f11af522-f252-4d96-8e4a-57bb7ab20565)
+
+![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/3b159ddc-15f0-4672-8a3b-ebf75b06b25a)
+
 
 Caso deseje verificar o coverage(cobertura dos testes com Junit) , clique no botão "Coverage", presente no Eclipse IDE(A idéia é a mesma para outras IDE de sua preferência):
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/9783a19b-5fcf-4b98-9c17-59f6d9ccf9e6)
+![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/11ec28ff-fecb-4ce8-adaa-4704f7d8dc06)
 
-![image](https://github.com/tiglinux/CampoMinadoJava/assets/8001737/4912e43d-b147-4dc1-ba3d-8de8e6c91ae5)
 
 
 ## ✒️ Autor
