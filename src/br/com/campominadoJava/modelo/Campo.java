@@ -101,6 +101,10 @@ public class Campo {
 		return desvendado || protegido;
 	}
 	
+	void setAberto(boolean aberto) {
+		this.aberto = aberto;
+	}
+
 	long minasNaVizinhanca() {
 		return vizinhos.stream().filter(v -> v.minado).count();
 	}
@@ -109,6 +113,10 @@ public class Campo {
 		aberto = false;
 		minado = false;
 		marcado = false;
+	}
+	
+	public boolean isMinado() {
+		return minado;
 	}
 	
 	public String toString() {
